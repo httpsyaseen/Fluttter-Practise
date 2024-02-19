@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test1/dice_roller.dart';
 
 class BackgroundGradient extends StatelessWidget {
   const BackgroundGradient({super.key});
@@ -14,11 +15,7 @@ class BackgroundGradient extends StatelessWidget {
         ),
       ),
       child: const Center(
-        child: Text(
-          'Hello Yaseen Nazir!',
-          style: TextStyle(fontSize: 32),
-          selectionColor: Colors.black,
-        ),
+        child: DiceRoller(),
       ),
     );
   }
